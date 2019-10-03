@@ -45,7 +45,7 @@ p {
 
 
 .grid {
-	display: block;
+	display: grid;
 	
 }
 
@@ -142,6 +142,101 @@ button {
 button {
 	color: white;
 }
+header img{
+	display: none;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	
+}
+.samer {
+	cursor: pointer;
+	height: 40px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 10px;
+	
+}
+
+.contact {
+	display: none;
+}
+
+.telephone {
+	cursor: pointer;
+	height: 40px;
+	border-right: 2px black solid;
+	padding-right: 30px;
+}
+header nav {
+	margin: 0 auto;
+}
+
+.nav_links {
+	list-style: none;
+	
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 10px
+
+	
+}
+
+.nav_links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+	color: #0088a9;
+}
+
+header button {
+	padding: 9px 25px;
+	background-color: rgba(0, 135, 169, 1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+header button:hover {
+	background-color: rgba(0, 135, 169, 0.8);
+}
+
+
+/*Header Size*/
+
+@media only screen and (min-width: 600px) {
+	.samer {
+		display: none;
+	}
+	header img{
+	display: block;
+}
+	
+	.contact {
+	display: block;
+}
+
+	
+	header li,
+a,
+button {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #07779d;
+	text-decoration: none;
+}
+
+button {
+	color: white;
+}
 
 header {
 	display: flex;
@@ -186,5 +281,11 @@ header button {
 
 header button:hover {
 	background-color: rgba(0, 135, 169, 0.8);
+}
+
+}
+
+@media only screen and (min-width: 1070px) {
+	
 }
 
