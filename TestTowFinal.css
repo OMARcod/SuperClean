@@ -429,19 +429,6 @@ header button:hover {
 }
 
 
-/*Text i Mitten*/
-
-.mittText {
-	margin: 0 auto;
-	padding: 30px;
-	text-align: center;
-}
-
-.mittText p {
-	font-size: 30px;
-	color: black;
-
-}
 
 
 /*Footer*/
